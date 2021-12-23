@@ -63,51 +63,52 @@
                         </button>
                         <b class="headline">Оставьте свои данные, мы вам перезвоним</b>
                         
-                        <div class="form-field">
-                            <label class="form-label" for="name">Имя</label>
-                            <div class="input-container">
-                                <input class="form-input" type="text" name="name" id="name">
-                                <svg class="form-icon">
-                                    <use href="./images/icons.svg#person-black"></use>
-                                </svg>
-                            </div>  
-                        </div>
-
-                        <div class="form-field">
-                            <label class="form-label" for="phone">Телефон</label>
-                            <div class="input-container">
-                                <input class="form-input" type="tel" name="phone" id="phone">
-                                <svg class="form-icon">
-                                    <use href="./images/icons.svg#phone-black"></use>
-                                </svg>
+                        <form name="customer-data" autocomplete="off">
+                            <div class="form-field">
+                                <label class="form-label" for="name">Имя</label>
+                                <div class="input-container">
+                                    <input class="form-input" type="text" name="name" id="name">
+                                    <svg class="form-icon">
+                                        <use href="./images/icons.svg#person-black"></use>
+                                    </svg>
+                                </div>  
                             </div>
-                        </div>
 
-                        <div class="form-field">
-                            <label class="form-label" for="email">Почта</label>
-                            <div class="input-container">
-                                <input class="form-input" type="email" name="E-mail" id="email">
-                                <svg class="form-icon">
-                                    <use href="./images/icons.svg#email-black"></use>
-                                </svg>
+                            <div class="form-field">
+                                <label class="form-label" for="phone">Телефон</label>
+                                <div class="input-container">
+                                    <input class="form-input" type="tel" name="phone" id="phone">
+                                    <svg class="form-icon">
+                                        <use href="./images/icons.svg#phone-black"></use>
+                                    </svg>
+                                </div>
                             </div>
-                        </div>
 
-                        <div class="form-field">
-                            <label class="form-label" for="email">Комментарий</label>
-                            <textarea class="form-input comment" placeholder="Введите текст"></textarea>                                 
-                        </div>
+                            <div class="form-field">
+                                <label class="form-label" for="email">Почта</label>
+                                <div class="input-container">
+                                    <input class="form-input" type="email" name="E-mail" id="email">
+                                    <svg class="form-icon">
+                                        <use href="./images/icons.svg#email-black"></use>
+                                    </svg>
+                                </div>
+                            </div>
 
-                        
-                        
-                        <label class="label-check">
-                            <input class="checkbox" type="checkbox">
-                            <span class="icon-check"></span> Соглашаюсь с рассылкой и принимаю <a href="#" class="link-contract"> Условия договора</a>
+                            <div class="form-field">
+                                <label class="form-label" for="email">Комментарий</label>
+                                <textarea class="form-input comment" placeholder="Введите текст"></textarea>                                 
+                            </div>
+
                             
-                        </label>
+                            
+                            <label class="label-check">
+                                <input class="checkbox" type="checkbox">
+                                <span class="icon-check"></span> Соглашаюсь с рассылкой и принимаю <a href="#" class="link-contract"> &nbsp; Условия договора</a>
+                                
+                            </label>
 
-                        <button class="button " type="submit">Отправить</button>
-                        
+                            <button class="button " type="submit">Отправить</button>
+                        </form>
                     </div>
                 </div>           
         </section>
