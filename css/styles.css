@@ -373,22 +373,29 @@ img {
   appearance: none;
 }
 
-.icon-check {
+.icon-checkbox {
   display: inline-block;
-  width: 16px;
+  width: 15px;
   height: 15px;
   margin-right: 7px;
 
   border: 2px solid var(--title-text-color);
   border-radius: 2px;
+
+  position: relative;
+  color: transparent;
 }
 
-.checkbox:checked + .icon-check {
-  border-color: var(--accent-color);
-  background-color: var(--accent-color);
-  background-image: url(../images/icon-check.svg);
-  background-size: contain;
-  background-origin: border-box;
+.icon-check {
+  position: absolute;
+  top: -2px;
+  left: -2px;
+  fill: currentColor;
+}
+
+.checkbox:checked + .icon-checkbox {
+  border: 2px solid var(--accent-color);
+  color: var(--accent-color);
 }
 
 .label-check {
